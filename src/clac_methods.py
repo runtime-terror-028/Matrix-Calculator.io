@@ -8,15 +8,15 @@ matrix and formation of identity matrix.
 from termcolor import cprint
 
 # menu of operations available in the calc. for user
-menu = """
-\t\tMENU\n
-\t1. Addition
-\t2. Subtraction
-\t3. Multiplication (not working)
-\t4. Scalar Multiplication
-\t5. Find Transpose
-\t6. Find Determinant\n
-"""
+# menu = """
+# \t\tMENU\n
+# \t1. Addition
+# \t2. Subtraction
+# \t3. Multiplication (not working)
+# \t4. Scalar Multiplication
+# \t5. Find Transpose
+# \t6. Find Determinant\n
+# """
 
 def add(matrix1=list, matrix2=list): # method for addition operator
     """
