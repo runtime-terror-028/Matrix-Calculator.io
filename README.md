@@ -1,35 +1,19 @@
 # Matrix-Calculator.io
-Python code to solve your Matrix problems in a easy way. You can use this calculator in 2 forms. UI and API/GUI. We are working on this calculator daily. So new features will be updated and upcoming bugs will be fixed.
+Forked from [bunny-k28/Matrix-Calculator.io](https://github.com/bunny-k28/Matrix-Calculator.io)
 
-# 1. How To Use
-1.1. Solve your Matrix problems in 3 easy steps.
+## 1. What is changed
+1. Code is refactored and have implemented some DRY principle.
+2. Changed cli
+3. Added Tkinter GUI (looks @ss but ok)
+4. Fixed Multiplication
+5. Added "Find determinate" feature
+6. The old files are not modified and kept in `./_old` for future reference
 
-            Step 1: Enter the Operator no. from the Menu.
-            Step 2: Make your Matrix's structure entering row and column no.
-            Step 3: Enter the elements of the Matrices.
+## 2. How To Use
+1. Clone this repo or download zip
+2. Make sure python is installed
+3. This code uses `Tkinder` and `argparse` which are in most cases preinstalled. If they are not in your case then install it using pip.
+4. Open the directory where you have dowloaded or cloned this code in your terminal
+5. For CLI run `python3 main.py` in linux or `python main.py in windows`
+6. For GUI run `python3 main.py --gui` in linux or `python main.py --gui`
 
-1.2. For now, you can perform the operations only with 1 or 2 matrices.
-
-1.3 Download all the python files itno a single folder for better performence.
-
-1.3. (Optional) Change the path/import statement in the ./main_UI.py/ file.
-
-    1.3.1 In the current code the path/import statement is ```import functions```
-    
-    1.3.2 To follow the same convention, make sure both the files are in one same folder.
-    
-1.4 Download the zip file of this repo. or clone this repo to use this UI claculator.
-
-# 2. Bugs/Problems
-2.1. Currently 2 methods are not working:- 
-
-    2.1.1 The ```Multiplication``` operator method
-    
-    2.1.2 The ```__getDeterminant__``` method
-    
-2.2. In the ./main_UI.py/ file/code File Determinant option is not available
-
-# 3. Progress
-3.1. Working on the multiplication function and __getDeterminent__ function
-
-3.2. In parall working on the GUI of the calculator
